@@ -35,7 +35,9 @@ namespace DemoStore.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "features", "Get posts", "A short summary of the feature", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "features", "Get posts", "As a user, I wanto to see a product by API testing\r\n\r\n//@positive @smoke @regress" +
+                    "ion @integration @JIRA-7777 \r\n//Scenario: Get by id\r\n\tGiven I have an id with va" +
+                    "lue 1\r\n\tWhen I send a get request\r\n\tThen I expected a valid code response", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -74,23 +76,19 @@ namespace DemoStore.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Get by id")]
+        [NUnit.Framework.DescriptionAttribute("Get a product by id")]
         [NUnit.Framework.CategoryAttribute("positive")]
-        [NUnit.Framework.CategoryAttribute("smoke")]
         [NUnit.Framework.CategoryAttribute("regression")]
-        [NUnit.Framework.CategoryAttribute("integration")]
-        [NUnit.Framework.CategoryAttribute("JIRA-7777")]
-        public void GetById()
+        [NUnit.Framework.CategoryAttribute("finalProject")]
+        public void GetAProductById()
         {
             string[] tagsOfScenario = new string[] {
                     "positive",
-                    "smoke",
                     "regression",
-                    "integration",
-                    "JIRA-7777"};
+                    "finalProject"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get by id", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 6
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a product by id", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -100,14 +98,68 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 7
- testRunner.Given("I have an id with value 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 13
+ testRunner.Given("I have product id with value 17", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 8
- testRunner.When("I send a get request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 14
+ testRunner.When("I send a GET request to Gatling", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
- testRunner.Then("I expected a valid code response", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 15
+ testRunner.Then("I validate that the response status is \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                            "id",
+                            "17"});
+                table1.AddRow(new string[] {
+                            "name",
+                            "Casual Black-Blue"});
+                table1.AddRow(new string[] {
+                            "description",
+                            "<p>Some casual black &amp; blue glasses</p>"});
+                table1.AddRow(new string[] {
+                            "price",
+                            "24.99"});
+                table1.AddRow(new string[] {
+                            "categoryId",
+                            "5"});
+#line 16
+ testRunner.And("I validate that the response body contais the following values", ((string)(null)), table1, "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Get a list of all products filter by categoty")]
+        [NUnit.Framework.CategoryAttribute("positive")]
+        [NUnit.Framework.CategoryAttribute("regression")]
+        [NUnit.Framework.CategoryAttribute("finalProject")]
+        public void GetAListOfAllProductsFilterByCategoty()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "positive",
+                    "regression",
+                    "finalProject"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of all products filter by categoty", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 24
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 25
+ testRunner.Given("I have category id with value 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 26
+ testRunner.When("I send a GET by category ID request to Gatling", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 27
+ testRunner.Then("I validate that the response status is \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

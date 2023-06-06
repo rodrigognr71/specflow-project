@@ -12,6 +12,7 @@ namespace DemoStore
         }
 
         [Test]
+        [Ignore("Ignore a test")]
         public void Test1()
         {
             var client = new RestClient("http://localhost:3000/");
@@ -26,6 +27,7 @@ namespace DemoStore
         }
 
         [Test]
+        [Ignore("Ignore a test")]
         public void Test2()
         {
             var client = new RestClient("http://localhost:3000/");

@@ -1,7 +1,7 @@
 {
-  "uuid": "6447fbc862b14ab79b3a7704f6e0e45f",
-  "historyId": "Get by id",
-  "fullName": "Get by id",
+  "uuid": "05533bc058824a8a992dfd629ab173e5",
+  "historyId": "Get a product by id",
+  "fullName": "Get a product by id",
   "labels": [
     {
       "name": "thread",
@@ -21,23 +21,15 @@
     },
     {
       "name": "tag",
-      "value": "smoke"
-    },
-    {
-      "name": "tag",
       "value": "regression"
     },
     {
       "name": "tag",
-      "value": "integration"
-    },
-    {
-      "name": "tag",
-      "value": "JIRA-7777"
+      "value": "finalProject"
     }
   ],
   "links": [],
-  "name": "Get by id",
+  "name": "Get a product by id",
   "status": "passed",
   "statusDetails": {
     "known": false,
@@ -47,7 +39,7 @@
   "stage": "finished",
   "steps": [
     {
-      "name": "Given  I have an id with value 1",
+      "name": "Given  I have product id with value 17",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -58,11 +50,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685922770652,
-      "stop": 1685922770667
+      "start": 1686030847582,
+      "stop": 1686030847583
     },
     {
-      "name": "When  I send a get request",
+      "name": "When  I send a GET request to Gatling",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -73,11 +65,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685922770667,
-      "stop": 1685922770712
+      "start": 1686030847583,
+      "stop": 1686030847889
     },
     {
-      "name": "Then  I expected a valid code response",
+      "name": "Then  I validate that the response status is \"200\"",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -88,12 +80,33 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685922770712,
-      "stop": 1685922770717
+      "start": 1686030847889,
+      "stop": 1686030847890
+    },
+    {
+      "name": "And  I validate that the response body contais the following values",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "e02f704c22da4b39b70deadfaeccf0c2-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686030847892,
+      "stop": 1686030847904
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1685922770647,
-  "stop": 1685922770718
+  "start": 1686030847582,
+  "stop": 1686030847904
 }

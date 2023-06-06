@@ -1,0 +1,112 @@
+{
+  "uuid": "dbbf1e265d074db18c4f8b7df3ac1b59",
+  "historyId": "Get a product by id",
+  "fullName": "Get a product by id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-2U5KD5L0"
+    },
+    {
+      "name": "feature",
+      "value": "Get posts"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "finalProject"
+    }
+  ],
+  "links": [],
+  "name": "Get a product by id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have product id with value 17",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686064178042,
+      "stop": 1686064178043
+    },
+    {
+      "name": "When  I send a GET request to Gatling",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686064178043,
+      "stop": 1686064178338
+    },
+    {
+      "name": "Then  I validate that the response status is \"200\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686064178338,
+      "stop": 1686064178338
+    },
+    {
+      "name": "And  I validate that the response body contais the following values",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "343232fbacbc4a09ac1c3ee19f5bee8c-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686064178341,
+      "stop": 1686064178354
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686064178042,
+  "stop": 1686064178354
+}

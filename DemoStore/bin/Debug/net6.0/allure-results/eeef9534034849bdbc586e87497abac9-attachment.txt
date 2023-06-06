@@ -1,0 +1,9 @@
+{
+          "id": 33,
+          "name": "Curved Brown",
+          "slug": "curved-brown",
+          "description": "<p>Curved brown glasses case perfect for him or her</p>",
+          "image": "curve-brown-open.jpg",
+          "price": "19.99",
+          "categoryId": "7",
+      }

@@ -8,11 +8,14 @@ C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\nunit.engine.api.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\nunit.engine.core.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\specflow.json
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\DemoStore.deps.json
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\DemoStore.runtimeconfig.json
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\DemoStore.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\DemoStore.pdb
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Allure.Commons.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\BoDi.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\CsvHelper.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Dynamitey.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Gherkin.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -24,11 +27,13 @@ C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\MimeTypesMap.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\NuGet.Frameworks.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\nunit.framework.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\RestSharp.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Allure.SpecFlowPlugin.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\SpecFlow.Assist.Dynamic.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
@@ -114,8 +119,3 @@ C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\obj\Debug\net6.0\DemoStore.pdb
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\obj\Debug\net6.0\DemoStore.genruntimeconfig.cache
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\obj\Debug\net6.0\ref\DemoStore.dll
-C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\specflow.json
-C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Allure.Commons.dll
-C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\CsvHelper.dll
-C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\MimeTypesMap.dll
-C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\DemoStore\DemoStore\bin\Debug\net6.0\Allure.SpecFlowPlugin.dll
