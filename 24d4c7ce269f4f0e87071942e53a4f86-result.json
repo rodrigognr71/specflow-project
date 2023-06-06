@@ -1,0 +1,133 @@
+{
+  "uuid": "8fc4dfa7eda340999b789a371ddc0249",
+  "historyId": "Update a product by ID",
+  "fullName": "Update a product by ID",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az735-612"
+    },
+    {
+      "name": "feature",
+      "value": "Put a prodcut"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "finalProject"
+    }
+  ],
+  "links": [],
+  "name": "Update a product by ID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I use the Gatling service client",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087736159,
+      "stop": 1686087736181
+    },
+    {
+      "name": "When  I have product id with value 17",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087736181,
+      "stop": 1686087736182
+    },
+    {
+      "name": "And  I send a PUT request to product/{ID} with the following json body",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087736183,
+      "stop": 1686087736204
+    },
+    {
+      "name": "Then  I validate that the response status is \"400\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087736205,
+      "stop": 1686087736205
+    },
+    {
+      "name": "And  I validate that the response body contais the following values",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "05988af718dc4e289b5139aefe73d03e-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686087736205,
+      "stop": 1686087736205
+    }
+  ],
+  "attachments": [
+    {
+      "name": "multiline argument",
+      "source": "c452e49486c7499686657e729e9fdc00-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1686087736159,
+  "stop": 1686087736206
+}

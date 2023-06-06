@@ -1,0 +1,91 @@
+{
+  "uuid": "d490c7b5258e45e88ff9931d0d62c34c",
+  "historyId": "Get a list of all products filter by categoty",
+  "fullName": "Get a list of all products filter by categoty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az735-612"
+    },
+    {
+      "name": "feature",
+      "value": "Get posts"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "finalProject"
+    }
+  ],
+  "links": [],
+  "name": "Get a list of all products filter by categoty",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have category id with value 5",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087735338,
+      "stop": 1686087735487
+    },
+    {
+      "name": "When  I send a GET by category ID request to Gatling",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087735488,
+      "stop": 1686087735929
+    },
+    {
+      "name": "Then  I validate that the response status is \"200\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686087735929,
+      "stop": 1686087735938
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686087735302,
+  "stop": 1686087735940
+}
