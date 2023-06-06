@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 06 21:42:16 GMT 2023","Tue Jun 06 21:42:16 GMT 2023","131","","","","","","Create a product",""
+"passed","Tue Jun 06 21:42:15 GMT 2023","Tue Jun 06 21:42:15 GMT 2023","638","","","","","","Get a list of all products filter by categoty",""
+"passed","Tue Jun 06 21:42:16 GMT 2023","Tue Jun 06 21:42:16 GMT 2023","47","","","","","","Update a product by ID",""
+"passed","Tue Jun 06 21:42:15 GMT 2023","Tue Jun 06 21:42:15 GMT 2023","51","","","","","","Get a product by id",""
